@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@keyframes fl { 50% { transform: translateY(-16px); } }
+@keyframes up { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+@keyframes beat { 50% { transform: scale(1.15); } }
+.fl { animation: fl 3s ease-in-out infinite; }
+.up { animation: up .8s ease both; }
+.beat { animation: beat 1.2s ease-in-out infinite; }
+body { font-family: 'Hind Siliguri', sans-serif; background: #fff7f5; color: #3b0d0d; }
+.fancy { font-family: 'Tiro Bangla', serif; }
